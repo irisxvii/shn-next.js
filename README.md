@@ -1,9 +1,3 @@
-
-
-![p5notion](https://github.com/user-attachments/assets/51c7453c-b15a-4452-91fa-f42c1c9bf975)
-
-
-
 # Project Name
 Long Description about project. This project do that. This project is awesome...
 ## Team members
