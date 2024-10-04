@@ -26,12 +26,12 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   const header = (
-    <header className="p-4 sm:p-8 flex items-center justify-between gap-4">
+    <header className="p-4 sm:p-8 flex items-center justify-between gap-4 ">
       <h1  className={'text-base sm:text-lg textGradient lg:text-2xl ' + fugaz.className}>
         Sink
       </h1>
-      <div className="flex items-center justify-between">
-        PLACEHOLDER CTA || STATS
+      <div className="flex items-center justify-between font-bold">
+      Join the Fun! | Connect and sync!
       </div>
 
 

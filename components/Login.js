@@ -12,7 +12,9 @@ export default function Login() {
       <input className='w-full max-w-[400px] mx-auto px-3 duration-200 hover: border-indigo-600 focus:border-indigo-600 py-2 sm:py-3 border border-solid border-indigo-400 rounded-full outline-none' placeholder='Password'/>
       
       <Button text="Submit" full/>
-      
+      <div>
+        <p className='text-center'>Don&#39;t have an account? <span className='text-indigo-600'>Sign up</span></p>
+      </div>
     </div>
   )
 }

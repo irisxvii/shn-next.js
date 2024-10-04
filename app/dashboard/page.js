@@ -3,7 +3,7 @@ import Login from "@/components/Login";
 import Main from "@/components/Main";
 
 export const metadata = {
-    title: "SINK ⋅ Registration",
+    title: "SINK ⋅ Dashboard",
 };
 
 
@@ -11,7 +11,7 @@ export const metadata = {
 
 export default function DashboardPage() {
 
-    const isAuthenticated = false
+    const isAuthenticated = true
     let children = (
         <Login/>
     )
