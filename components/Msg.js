@@ -1,7 +1,7 @@
 import React from 'react'
 
-export default function Msg() {
+export default function Dashboard() {
   return (
-    <div>Msg</div>
+    <div>Dashboard</div>
   )
 }

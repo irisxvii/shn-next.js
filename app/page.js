@@ -1,9 +1,11 @@
-import Image from "next/image";
+import Hero from "@/components/Hero";
+import Main from "@/components/Main";
 
-export default function Home() {
+export default function HomePage() {
   return (
-    <main>
-      Iris
-    </main>
+    
+      <Main className="">
+        <Hero/>
+      </Main>
   );
 }
