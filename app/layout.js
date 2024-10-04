@@ -30,7 +30,9 @@ export default function RootLayout({ children }) {
       <h1  className={'text-base sm:text-lg textGradient lg:text-2xl ' + fugaz.className}>
         Sink
       </h1>
-      
+      <div className="flex items-center justify-between">
+        PLACEHOLDER CTA || STATS
+      </div>
 
 
     </header>
