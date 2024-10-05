@@ -16,7 +16,7 @@ export default function Hero() {
       </p>
       <div className='grid grid-cols-2 gap-4 w-fit mx-auto'>
         <Button text="Sign up"/>
-        <Button text="Log in"dark/>
+        <a href="/login" ><Button text="Log in"dark/></a>
       </div>
       
     </div>
