@@ -5,13 +5,9 @@ import Main from "@/components/Main";
 export const metadata = {
     title: "SINK ⋅ Login",
 };
-
-
-
-
 export default function DashboardPage() {
 
-    const isAuthenticated = false
+    const isAuthenticated = true
     let children = (
         <Login/>
     )
