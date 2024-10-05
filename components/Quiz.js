@@ -9,7 +9,7 @@ const bungee = Bungee({ subsets: ['latin'], weight: ['400'] });
 
 export default function Quiz() {
   return (
-<div className='flex flex-col items-center max-w-[900px] '>
+<div className='flex flex-col items-center '>
   <p className='text-center text-2xl mt-5 '>Imagine you're at a party. Do you naturally gravitate towards the crowd, or are you more likely to enjoy a one-on-one conversation in a quieter corner?</p>
   <div className='grid grid-cols-2 gap-10 w-fit mx-auto mt-1 py-6 px-10 text-1xl'>
     <Button text="I’m in the crowd!"  />

@@ -6,17 +6,6 @@ export const metadata = {
     title: "SINC ⋅ Login",
 };
 export default function DashboardPage() {
-
-    const isAuthenticated = false
-    let children = (
-        <Login/>
-    )
-
-    if (isAuthenticated){
-        children = (
-            <Dashboard/>
-        )
-    }
     return (
        <Main>
         {children}
