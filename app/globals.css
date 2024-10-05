@@ -7,3 +7,6 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.subtext{
+  padding-top: 20px;
+}

@@ -20,7 +20,7 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "SINK",
+  title: "SINC",
   description: "Connect and sync",
 };
 
@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
   const header = (
     <header className="p-4 sm:p-8 flex items-center justify-between gap-4 ">
       <h1  className={'text-base sm:text-lg textGradient lg:text-2xl ' + fugaz.className}>
-        Sink
+        Sinc
       </h1>
       <div className="flex items-center justify-between font-bold">
       Join the Fun! | Connect and sync!
