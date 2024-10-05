@@ -11,7 +11,7 @@ export const metadata = {
 
 export default function DashboardPage() {
 
-    const isAuthenticated = true
+    const isAuthenticated = false
     let children = (
         <Login/>
     )
