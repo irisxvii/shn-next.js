@@ -15,8 +15,8 @@ export default function Dashboard() {
   Be yourself, try not to think too hard.
       </p>
   <div className='grid grid-cols-2 gap-5 w-fit mx-auto mt-50 py-10 px-15 text-2xl '>
-        <Button text="I Already Know My Type"dark />
-        <Button text="Take a Short Quiz"dark />
+  <a href="/personality" ><Button text="I Already Know My Type"dark/></a>
+  <a href="/quiz" ><Button text="Take a Short Quiz"dark/></a>
       </div>
   </div>
 
