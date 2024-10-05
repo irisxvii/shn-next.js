@@ -4,7 +4,7 @@ import Main from "@/components/Main";
 import Msg from '@/components/Msg';
 
 export const metadata = {
-    title: "SINK ⋅ Main",
+    title: "SINK ⋅ Message",
 };
 
 
