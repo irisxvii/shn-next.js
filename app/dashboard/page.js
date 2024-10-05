@@ -3,7 +3,7 @@ import Login from "@/components/Login";
 import Main from "@/components/Main";
 
 export const metadata = {
-    title: "SINK ⋅ Login",
+    title: "SINC ⋅ Login",
 };
 
 

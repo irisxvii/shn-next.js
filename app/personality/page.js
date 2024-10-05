@@ -2,7 +2,7 @@ import Personality from '@/components/Personality';
 import React from 'react'
 
 export const metadata = {
-    title: "SINK ⋅ Personality",
+    title: "SINC ⋅ Personality",
 };
 
 
