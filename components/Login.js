@@ -8,12 +8,12 @@ export default function Login() {
     <div className = 'flex flex-col flex-l justify-center items-center gap-4'>
       <h3 className = {'text-4xl sm:text-5xl ' + fugaz.className} > Log In / Register </h3>
       <p>You&#39;re one step away!</p>
-      <input className=' w-full max-w-[400px] mx-auto px-3 duration-200 hover: border-indigo-600 focus:border-indigo-600 py-2 sm:py-3 border border-solid border-indigo-400 rounded-full outline-none' placeholder='Name'/>
-      <input className='w-full max-w-[400px] mx-auto px-3 duration-200 hover: border-indigo-600 focus:border-indigo-600 py-2 sm:py-3 border border-solid border-indigo-400 rounded-full outline-none' placeholder='Password'/>
+      <input className=' w-full max-w-[400px] mx-auto px-3 duration-200 hover: border-tur focus:border-tur py-2 sm:py-3 border border-solid border-tur rounded-full outline-none text-black' placeholder='Name'/>
+      <input className='w-full max-w-[400px] mx-auto px-3 duration-200 hover: border-tur focus:border-tur py-2 sm:py-3 border border-solid border-tur rounded-full outline-none text-black' placeholder='Password'/>
       
       <Button text="Submit" full/>
       <div>
-        <p className='text-center'>Don&#39;t have an account? <span className='text-indigo-600'>Sign up</span></p>
+        <p className='text-center'>Don&#39;t have an account? <span className='text-tur'>Sign up</span></p>
       </div>
     </div>
   )
